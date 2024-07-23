@@ -1,4 +1,6 @@
-function LoadingIndicator() {
+
+function LoadingIndicator({isLoading}) {
+
   return (
     <img
       className="loading-indicator"
